@@ -3,5 +3,5 @@ all: dkms-pkg
 
 .PHONY: dkms-pkg
 dkms-pkg:
-	dpkg-buildpackage -b -rfakeroot -us -uc
+	dpkg-buildpackage
 
