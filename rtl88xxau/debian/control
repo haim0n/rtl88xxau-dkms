@@ -10,8 +10,7 @@ Vcs-Browser: https://github.com/haim0n/rtl88xxau
 
 Package: rtl88xxau-dkms
 Architecture: all
-Depends: ${misc:Depends}, dkms, linux-libc-dev, libc6-dev
-XB-Modaliases: ${modaliases}
+Depends: dkms, linux-libc-dev, libc6-dev
 Description: dkms source for the RTL8812AU/21AU and RTL8814AU driver with monitor mode and frame injection network driver.
  rtl88xxau is the Linux device driver released for the RealTek RTL8812AU/21AU and RTL8814AU WiFi
  controllers with USB interface.
